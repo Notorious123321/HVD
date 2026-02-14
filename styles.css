@@ -1,0 +1,69 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #ffe6e6, #ffb3ba);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+.container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #d63384;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.rose-image {
+    width: 200px;  /* Smaller size for a more compact look */
+    height: auto;  /* Maintains aspect ratio */
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.hearts {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+button {
+    background: #d63384;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover {
+    background: #b02a6a;
+}
+
+.audio {
+    display: none;  /* Hides the audio player */
+}
+
+.us-image {
+    width: 200px;  /* Matches the roses image size for consistency */
+    height: auto;  /* Maintains aspect ratio */
+    border-radius: 10px;  /* Soft rounded corners */
+    margin-bottom: 20px;  /* Spacing below the image */
+}
