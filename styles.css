@@ -1,4 +1,4 @@
-ctbody {
+body {
     font-family: 'Arial', sans-serif;
     background: linear-gradient(135deg, #ffe6e6, #ffb3ba);
     margin: 0;
@@ -31,12 +31,11 @@ p {
     margin-bottom: 30px;
 }
 
-.rose-image, us-image {
-    width: auto; /* Fixed width for both images */
-    height: auto;  /* Fixed height for both images to match exactly */
-    object-fit: cover; /*Scales and crops to fit the box without distortion */
-    border-radius: 10px; /* Keep the rounded corners */
-    margin-bottom: 20px; /* Spacing below the image */
+.rose-image {
+    width: 200px;  /* Smaller size for a more compact look */
+    height: auto;  /* Maintains aspect ratio */
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 .hearts {
@@ -62,12 +61,9 @@ button:hover {
     display: none;  /* Hides the audio player */
 }
 
-
-
-
-
-
-
-
-
-
+.us-image {
+    width: 200px;  /* Matches the roses image size for consistency */
+    height: auto;  /* Maintains aspect ratio */
+    border-radius: 10px;  /* Soft rounded corners */
+    margin-bottom: 20px;  /* Spacing below the image */
+}
