@@ -31,11 +31,11 @@ p {
     margin-bottom: 30px;
 }
 
-.rose-image {
-    width: 200px;  /* Smaller size for a more compact look */
-    height: auto;  /* Maintains aspect ratio */
-    border-radius: 10px;
-    margin-bottom: 20px;
+.rose-image, us-image {
+    width: 200px;  /* Fixed witdth for both */
+    height: auto;  /* Fixed height for both to match exactly  */
+    border-radius: 10px; /* Soft rounded corners */
+    margin-bottom: 20px; /* Spacing below the image */
 }
 
 .hearts {
@@ -61,10 +61,4 @@ button:hover {
     display: none;  /* Hides the audio player */
 }
 
-.us-image {
-    width: 200px;  /* Allows width to adjust based on aspect ratio */
-    height: auto;  /* Matches the height of the roses image */
-    border-radius: 10px;  /* Soft rounded corners */
-    margin-bottom: 20px;  /* Spacing below the image */
 
-}
