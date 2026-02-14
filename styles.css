@@ -33,7 +33,7 @@ p {
 
 .rose-image, us-image {
     width: 200px; 
-    height: 200px;  
+    height: auto;  /* Match the roses' natural height */
     border-radius: 10px; /* Soft rounded corners */
     margin-bottom: 20px; /* Spacing below the image */
 }
@@ -60,6 +60,7 @@ button:hover {
 .audio {
     display: none;  /* Hides the audio player */
 }
+
 
 
 
