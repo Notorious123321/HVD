@@ -63,7 +63,8 @@ button:hover {
 
 .us-image {
     width: 200px;  /* Matches the roses image size for consistency */
-    height: auto;  /* Maintains aspect ratio */
+    height: auto;  /* Matches the roses image size for consistency */
     border-radius: 10px;  /* Soft rounded corners */
     margin-bottom: 20px;  /* Spacing below the image */
+
 }
