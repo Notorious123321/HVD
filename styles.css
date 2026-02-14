@@ -32,8 +32,8 @@ p {
 }
 
 .rose-image, us-image {
-    width: 200px;  /* Fixed witdth for both */
-    height: 200;  /* Fixed height for exact matching */
+    width: 200px; 
+    height: 200;  
     border-radius: 10px; /* Soft rounded corners */
     margin-bottom: 20px; /* Spacing below the image */
 }
@@ -60,6 +60,7 @@ button:hover {
 .audio {
     display: none;  /* Hides the audio player */
 }
+
 
 
 
