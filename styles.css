@@ -1,4 +1,4 @@
-body {
+ctbody {
     font-family: 'Arial', sans-serif;
     background: linear-gradient(135deg, #ffe6e6, #ffb3ba);
     margin: 0;
@@ -33,7 +33,7 @@ p {
 
 .rose-image, us-image {
     width: 200px;  /* Fixed witdth for both */
-    height: auto;  /* Fixed height for both to match exactly  */
+    height: 200;  /* Fixed height for exact matching */
     border-radius: 10px; /* Soft rounded corners */
     margin-bottom: 20px; /* Spacing below the image */
 }
@@ -60,5 +60,6 @@ button:hover {
 .audio {
     display: none;  /* Hides the audio player */
 }
+
 
 
