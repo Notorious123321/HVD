@@ -32,9 +32,9 @@ p {
 }
 
 .rose-image, us-image {
-    width: 200px; /* Fixed width for both images */
-    height: 200px;  /* Fixed height for both images to match exactly */
-    object-fit: cover; /*Scales and crop to fit the box without distortion */
+    width: auto; /* Fixed width for both images */
+    height: auto;  /* Fixed height for both images to match exactly */
+    object-fit: cover; /*Scales and crops to fit the box without distortion */
     border-radius: 10px; /* Keep the rounded corners */
     margin-bottom: 20px; /* Spacing below the image */
 }
@@ -61,6 +61,7 @@ button:hover {
 .audio {
     display: none;  /* Hides the audio player */
 }
+
 
 
 
